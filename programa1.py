@@ -59,4 +59,14 @@ consumo = float(input("Informe a 5a. medição de consumo:"))
 total+= consumo
 
 media = total / tamanho
+<<<<<<< HEAD
 print("Média das 5 medições de consumo %8.2f"% media) #8 digitos inteiros e 2 casas decimais
+
+valor = float(input("Digite um valor numerico: "))
+if valor <0:
+    print("Voce digitou um valor negativo")
+else:
+    print("Voce digitou um numero positivo")
+=======
+print("Média das 5 medições de consumo %8.2f"% media) #8 digitos inteiros e 2 casas decimais
+>>>>>>> 59983c0b5af92876b48723a0a0c3bca3788a57d7
